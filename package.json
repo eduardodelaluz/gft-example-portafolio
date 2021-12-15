@@ -1,0 +1,32 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio FrontEnd developer",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 4200 -c-1",
+    "build:css": "node-sass --output-style expended --source-map false --source-map-contents false --precision 6 scss/style.scss -o css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardodelaluz/gft-example-portafolio.git"
+  },
+  "keywords": [
+    "Portafolio",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JavaScript"
+  ],
+  "author": "Eduardo de la Luz Nicolás",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardodelaluz/gft-example-portafolio/issues"
+  },
+  "homepage": "https://github.com/eduardodelaluz/gft-example-portafolio#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "node-sass": "^7.0.0"
+  }
+}
